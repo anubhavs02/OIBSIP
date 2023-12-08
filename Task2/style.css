@@ -1,0 +1,285 @@
+* {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(108, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    align-items: center;
+    height: 100px;
+}
+
+.logo h1 {
+    height: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 9px #000;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 20px 0 30px;
+    font-size: 1.2em;
+    text-shadow: 0 0 7px #000;
+}
+
+#navbar ul li a:hover {
+    border: none;
+    color: #000;
+}
+
+.login a {
+    padding: 10px 20px;
+    border: 2px solid rgb(30, 28, 23);
+    box-shadow: 0 0 7px #000;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+.login a:hover {
+    background: rgb(71, 52, 52);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    align-items: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1661775756810-82dbd209fc95?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU3fHxwb3J0Zm9saW8lMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.hero img {
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.info {
+    background-image: url('https://images.unsplash.com/photo-1633124012282-f2e9b02be183?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxwb3J0Zm9saW8lMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    filter: brightness(70%)
+}
+
+.intro h2 {
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+.intro h1 {
+    color: black;
+    font-size: 3rem;
+    text-shadow: 0 0 5px rgb(104, 102, 98);
+    white-space: nowrap;
+    margin: 10px 0 30px 0;
+}
+
+.intro h3 {
+    color: black;
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px rgb(104, 102, 98);
+}
+
+#about {
+    padding: 70px 50px 70px 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.title h4 {
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    text-shadow: 0 0 7px #000;
+    border: 1px solid black;
+    padding: 5px 30px 5px 30px;
+}
+
+.about h2 {
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.about p {
+    margin: 10px 0px 30px 0;
+    line-height: 25px;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.about a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px 25p 7px 25px;
+    font-size: 1.2rem;
+}
+
+#skills {
+    padding: 70px 50p 70px 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px 30px 20px;
+    font-size: 1.2rem;
+
+}
+
+.skills div {
+    display: flex;
+    font-size: large;
+
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+}
+
+.bar {
+    height: 6px;
+    width: 75%;
+    background: #000;
+    border-radius: 5px;
+}
+
+#projects {
+    padding: 70px 50px 70px 50px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects div {
+    flex: 1;
+    border: 2px solid rgb(24, 19, 20);
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects p {
+    margin-top: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(16, 13, 14);
+}
+
+#contacts {
+    padding: 70px 50px 70px 50px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.contacts form {
+    width: 350px;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.contacts form input {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contacts form textarea {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contacts form a {
+    color: #fff;
+    margin: 10px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 25px 0px 15px 30px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(236, 234, 234);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: aliceblue;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}

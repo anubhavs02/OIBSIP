@@ -1,45 +1,185 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    text-decoration: none;
-}
-html{
-    font-size: 100%;
-}
-header{
-    width: 100%;
-    height: 100vh;
-}
-.main{
-    background-image: url("C:/Users/adina/Downloads/img.jpg");
-    background-position: 0%;
 
-}
+.root{
+background-image: url(bg0.jpg),radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
 
-.container{
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(100%);
+    background-repeat: no-repeat;
 }
-img{
-    height: 80px;
+.logo{
+    width: 14%;
+    color: #e50914;
 }
-nav{
-    width: auto;
-    height: 70px;
+.btn{
+    padding: 8px 20px 8px 20px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.navbar{
+    height: 10vh;
     display: flex;
-    padding: 0px 70px;
-    color: aliceblue;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(9, 43, 43);
+    padding: 1vw 4vw 2vw;
+    flex-direction: row;
 }
-#navbar a{
-    padding: 10px 20px;
-    box-shadow: 2px 0px 5px red;
-    margin: 5px;
-    color: whitesmoke;
+.main-container{
+    width: 100%;
+    
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
 }
+.heading-container{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.main-heading{
+    font-size: 3.2rem;
+    margin-bottom: 14px;
+}
+.sub-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.box-container{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family:Arial, Helvetica, sans-serif ;
+    height: fit-content;
+    background-color: #e50914;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.input:hover{
+    background-color: #ff0b18;
+
+}
+.input-container{
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+    font-size: 1em;
+}
+.border{
+    border-block-end: 5px solid; 
+    writing-mode: horizontal-tb;
+    color: #5b5454;
+}
+#watch_more{
+    padding: 25px 0 25px 0;
+    background-color: black;
+}
+#watch_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px;
+}
+.watch_col{
+    flex:1;
+}
+#watch_img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin: auto;
+}
+#watch_img img{
+    width: 130%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.watch_col h1{
+    text-align: center;
+    font-family: cursive;
+    cursor: pointer;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.watch_col p{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.border1{border-block-end: 5px solid; 
+    writing-mode: horizontal-tb;
+    color: #5b5454;}
+#watch2_more{
+    padding: 25px 0 25px 0;
+    background-color: black;
+}
+#watch2_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px;
+}
+.watch2_col{
+    flex:1;
+}
+#watch2_img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin: auto;
+}
+#watch2_img img{
+    width: 130%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.watch2_col h1{
+    text-align: center;
+    font-family: cursive;
+    cursor: pointer;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.watch2_col p{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.border2{
+    border-block-end: 5px solid; 
+    writing-mode: horizontal-tb;
+    color: #5b5454;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+  footer a{
+    color: #ffffff;
+    display: inline;
+     }
